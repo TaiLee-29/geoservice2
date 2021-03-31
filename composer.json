@@ -1,0 +1,21 @@
+{
+  "name": "tai/geomaxmindservice",
+  "type": "project",
+  "description": "The Laravel Framework.",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Tai\\Geo\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.3|^8.0",
+    "geoip2/geoip2": "~2.0",
+    "guzzlehttp/guzzle": "^7.0.1",
+    "tai/geointerface": "^1.0.0"
+  }
+}
