@@ -6,7 +6,6 @@
     "framework",
     "laravel"
   ],
-
   "autoload": {
     "psr-4": {
       "Tai\\Geo\\": "src/"
@@ -17,5 +16,11 @@
     "geoip2/geoip2": "~2.0",
     "guzzlehttp/guzzle": "^7.0.1",
     "dumburgulboldi/geointerface": "^1.0.2"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/TaiLee-29/geoInterface.git"
+    }
+  ]
 }
